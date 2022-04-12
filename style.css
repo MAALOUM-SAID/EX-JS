@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.ch1,.ch2,.ch3,.ch4{
+    width: 100%;
+    height: 100%;
+    background-color: #b9e651;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto  auto;
+}
+.ch5{
+    width: 40%;
+    height: 50%;
+    z-index: 999;
+    position: absolute;
+    background-color: #e58e26;
+    margin-top: 5%;
+    margin-left: 34%;
+    border: 2px solid;
+    border-radius:50%;
+    padding-bottom: 10%;
+}
+.eyes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.eye{
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5%;
+    
+}
+.ins-eye{
+    width: 50%;
+    height: 50%;
+    background-color: black; 
+    border-radius: 50%;
+    border: 2px solid rgb(26, 197, 240);
+}
+.imi{
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
+    background-color: rgb(235, 49, 49);
+    border:5px solid crimson;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-bottom: 5%;
+}
+.ins1-ch1{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+.ins2-ch1{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
